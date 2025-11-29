@@ -1,5 +1,5 @@
-import chardet       # For encoding detection
-import re            # For regular expressions used in cleaning
+import chardet  # For encoding detection
+import re  # For regular expressions used in cleaning
 import pandas as pd  # For creating the DataFrame
 
 
@@ -61,10 +61,5 @@ def clean_csv(filepath, encoding, separator, trail1=None, trail2=None, trail3=No
         data = line.split(separator)  # SPlit based on the delimiter
         cleaned_list.append(data)
 
-    df = pd.DataFrame(
-        data=cleaned_list[1:],  # Data rows
-        columns=cleaned_list[0]  # Header
-    )
+    df = pd.DataFrame(data=cleaned_list[1:], columns=cleaned_list[0])
     return df
-
-
