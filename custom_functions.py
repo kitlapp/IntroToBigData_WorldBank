@@ -59,6 +59,8 @@ def clean_csv(filepath, encoding, separator, trail1=None, trail2=None, trail3=No
             line = line.replace(to_be_replaced, '')
         line = re.sub(', ', ' ', line)  # Replace comma+space with space
         data = line.split(separator)  # SPlit based on the delimiter
+        # Strip each value, and replace empty results with None
+        data = [val.strip() if val.strip() != '' else None for val in data]
         cleaned_list.append(data)
 
     df = pd.DataFrame(data=cleaned_list[1:], columns=cleaned_list[0])
