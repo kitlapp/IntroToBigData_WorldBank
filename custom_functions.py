@@ -67,11 +67,6 @@ def clean_csv(filepath, encoding, separator, trail1=None, trail2=None, trail3=No
     return df
 
 
-import pandas as pd
-
-import pandas as pd
-
-
 def calculate_nans_fixed_variables(all_dfs):
     """
     Calculate NaNs for the 8 fixed DataFrames and assign them directly to variables inside the function.
@@ -110,4 +105,83 @@ def calculate_nans_fixed_variables(all_dfs):
     # Return all variables as a tuple
     return df_che_nans, df_wr_nans, df_wu_nans, df_sr_nans, df_su_nans, df_gem_nans, df_pop_nans, df_ren_nans
 
+
+def check_same_countries(df_che, df_wr, df_wu, df_sr, df_su, df_gem, df_pop, df_ren):
+    """
+    Compare the country lists of eight World Bank datasets and return
+    the list of countries that appear in all datasets.
+
+    Parameters
+    ----------
+    df_che : pandas.DataFrame
+        Current health expenditure dataset.
+    df_wr : pandas.DataFrame
+        Rural water dataset.
+    df_wu : pandas.DataFrame
+        Urban water dataset.
+    df_sr : pandas.DataFrame
+        Rural sanitation dataset.
+    df_su : pandas.DataFrame
+        Urban sanitation dataset.
+    df_gem : pandas.DataFrame
+        Gender empowerment measures dataset.
+    df_pop : pandas.DataFrame
+        Population dataset.
+    df_ren : pandas.DataFrame
+        Renewable energy dataset.
+
+    Returns
+    -------
+    list
+        A list of country names that exist consistently across all
+        eight datasets. If this list has length 266, then no country
+        name standardization is needed.
+    """
+
+    # Extract country name columns from each dataset
+    che_countries = df_che['Country Name'].tolist()
+    wr_countries = df_wr['Country Name'].tolist()
+    wu_countries = df_wu['Country Name'].tolist()
+    sr_countries = df_sr['Country Name'].tolist()
+    su_countries = df_su['Country Name'].tolist()
+    gem_countries = df_gem['Country Name'].tolist()
+    pop_countries = df_pop['Country Name'].tolist()
+    ren_countries = df_ren['Country Name'].tolist()
+
+    # Extract country code columns from each dataset
+    che_countries_codes = df_che['Country Code'].tolist()
+    wr_countries_codes = df_wr['Country Code'].tolist()
+    wu_countries_codes = df_wu['Country Code'].tolist()
+    sr_countries_codes = df_sr['Country Code'].tolist()
+    su_countries_codes = df_su['Country Code'].tolist()
+    gem_countries_codes = df_gem['Country Code'].tolist()
+    pop_countries_codes = df_pop['Country Code'].tolist()
+    ren_countries_codes = df_ren['Country Code'].tolist()
+
+    same_countries = []
+    same_countries_codes = []
+
+    # For each country in df_che, check if it appears in all other datasets
+    for country_che in che_countries:
+        if country_che in wr_countries:
+            if country_che in wu_countries:
+                if country_che in sr_countries:
+                    if country_che in su_countries:
+                        if country_che in gem_countries:
+                            if country_che in pop_countries:
+                                if country_che in ren_countries:
+                                    same_countries.append(country_che)
+
+    # For each country code in df_che, check if it appears in all other datasets
+    for country_che_code in che_countries_codes:
+        if country_che_code in wr_countries_codes:
+            if country_che_code in wu_countries_codes:
+                if country_che_code in sr_countries_codes:
+                    if country_che_code in su_countries_codes:
+                        if country_che_code in gem_countries_codes:
+                            if country_che_code in pop_countries_codes:
+                                if country_che_code in ren_countries_codes:
+                                    same_countries_codes.append(country_che_code)
+
+    return same_countries, same_countries_codes
 
