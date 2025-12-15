@@ -1,6 +1,6 @@
 import pandas as pd  # For creating the DataFrame
 
-def find_outliers(dX):
+def find_outliers_zscore(dX):
     dX = dX.copy()
     
     dX['mean'] = dX.groupby(['region', 'indicator_id'])['value'].transform('mean')
@@ -14,15 +14,12 @@ def find_outliers(dX):
     return dX
 
 #####################################################################################
-ef print_timeseries(df, title):
+def print_timeseries(df, title):
+    """Plot all time series with consistent custom colors.
     """
-    Plot all time series with consistent custom colors.
-    """
-    
-       
     #Pass the ordered list to the plot function
     df.plot(ax=plt.gca(), color=plot_colors) 
-    
+        
     plt.title(title)
     plt.xlabel("Date")
     plt.ylabel("Load (MW)")
