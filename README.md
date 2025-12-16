@@ -1,6 +1,6 @@
 # Exploring Global Development Trends Using World Bank Indicators: A Data Analysis of Health and Environmental Metrics Across Regions Over the Last Decades
 
-=================================================================================
+===========================================================================
  
 **QUICK NOTE**
 
@@ -12,7 +12,7 @@ Not all files are part of the main project. Some folders contain optional experi
 ---> The main project script folder is: "MAIN_Project_Hourly_Mean_Analysis" <---
 
 
- =================================================================================
+ ===========================================================================
 
 ### 1. Introduction
 
@@ -21,7 +21,7 @@ Electricity plays a crucial role in modern life. Energy providers, policymakers,
  This project explores the time-series analysis & analytics of hourly energy demand (MW) for Greece. Incorporating data from 9 additional neighboring countries is done to be exploited in a methodology widely used to refine the accuracy of the final forecast. This is Actual to Forecast (A/F Bias Limitation).
 
 
- =================================================================================
+ ===========================================================================
 
 ### 2. Files Included
 
@@ -33,7 +33,7 @@ The experimental folders have already been described, while the main project scr
 5) hourly_environment.yml: The Conda environment file for the project, specifying required packages, versions and dependencies.
 
 
- =================================================================================
+ ===========================================================================
 
 ### 3. How to Set Up the Environment
 
@@ -53,7 +53,7 @@ scipy statsmodels scikit-learn plotly"
 2) Activate your environment and install Jupyter Lab using "conda install -c conda-forge jupyterlab"
 
 
- =================================================================================
+ ===========================================================================
 
 ### 4. How to Run the MAIN_Project_Hourly_Mean_Analysis Files
 
