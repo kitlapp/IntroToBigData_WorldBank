@@ -13,7 +13,6 @@ We selected five health and three environmental indicators. Their metadata descr
 
 ### 2. Files Included
 
-The experimental folders have already been described, while the main project scripts have been defined. Here are the additional general files:
 1) original_data_and_region_mapping folder: It contains the raw data as well as region_list.csv, which was created to map countries to global regions.
 2) main_cleaning&ingestion.ipynb: It contains all scripts required for raw data ingestion and cleaning, as well as database creation and table population.
 3) custom_functions.py: This file is a companion to main_cleaning_ingestion.ipynb, the notebook cannot be executed without it.
