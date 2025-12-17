@@ -27,7 +27,7 @@ We selected five health and three environmental indicators. Their metadata descr
 
 ### 3. How to Set Up the Environment
 
-**Use the provided requirements.yml file**
+**Use the provided requirements.yml file**  
 Extract all files creating your project directory. Open Anaconda Prompt and navigate to the directory where the .yml file is located (or provide the full path to it). Then:
 1) Run the following command to create the environment: “conda env create -f requirements.yml". The environment will be created with the name DereeIntroBigData.
 2) Once the environment is created, activate it: “conda activate DereeIntroBigData” 
