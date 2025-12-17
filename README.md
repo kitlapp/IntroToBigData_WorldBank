@@ -28,30 +28,23 @@ The experimental folders have already been described, while the main project scr
 
 ### 3. How to Set Up the Environment
 
-**OPTION A (using the provided .yml file - Recommended)**
-Extract all files to your project directory. Place the .yml file in your user directory, e.g., C:\Users\Your_User_Name. Then:
-1) Open Anaconda Prompt
-3) Run the following command to create the environment: “conda env create -f hourly_environment.yml -n <Your Environment’s Name>” 
-4) Once the environment is created, activate it: “conda activate <Your Environment’s Name>” 
-5) Launch Jupyter Lab by typing "jupyter-lab”
+**Use the provided requirements.yml file**
+Extract all files creating your project directory. Open Anaconda Prompt and navigate to the directory where the .yml file is located (or provide the full path to it). Then:
+1) Run the following command to create the environment: “conda env create -f requirements.yml". The environment will be created with the name DereeIntroBigData.
+2) Once the environment is created, activate it: “conda activate DereeIntroBigData” 
+3) Launch Jupyter Lab by typing "jupyter-lab”
 6) In Jupyter Lab, navigate to the directory where the project scripts are stored. You can then execute the notebooks and review the results.
-
-**OPTION B (without using our .yml environment file - Not Recommended)**
-Assumption: You are an Anaconda user.
-1) Open the Anaconda Prompt and run: 
-"conda create -n YourEnvName -c conda-forge python=3.12 pandas numpy matplotlib seaborn
-scipy statsmodels scikit-learn plotly"
-2) Activate your environment and install Jupyter Lab using "conda install -c conda-forge jupyterlab"
 
 
  ===========================================================================
 
-### 4. How to Run the MAIN_Project_Hourly_Mean_Analysis Files
+### 4. How to Run the 2 .ipynb Files
 
-1) Keep the data files in the same directory as the .ipynb files to ensure that relative dataset paths work correctly.
-2) Execute the notebooks in alphabetical order, based on their filenames: first A, then B, then C and finally E.
+Provided that you have kept the directory structure exactly as it was extracted:
+1) Restart kernel and run all cells of main_cleaning&ingestion.ipynb
+2) Restart kernel and run all cells of AnalysisinPandas_andVisualizations.ipynb
 
-All notebooks run without issues. The cleaned dataset generation steps have been commented out to prevent the creation of unexpected files in your project directory.
+**The steps for generating the cleaned datasets have been commented out to prevent creating unexpected files in your project directory. All necessary datasets are already included.**
 
 
 ===== Thank you =====
