@@ -18,11 +18,10 @@ The experimental folders have already been described, while the main project scr
 2) main_cleaning&ingestion.ipynb: It contains all scripts required for raw data ingestion and cleaning, as well as database creation and table population.
 3) custom_functions.py: This file is a companion to main_cleaning_ingestion.ipynb, the notebook cannot be executed without it.
 4) countries.csv, indicators.csv and values.csv: These are the exported database tables. They contain cleaned data, as the tables were populated only after the data cleaning process.
-5) README.md
-6) ITC6002B1_Duesing_Lappas_Logothetis_Psallida_Project.pdf: The project report
-7) ITC6002B1_Duesing_Lappas_Logothetis_Psallida_Project.ppt: The project Power Point presentation
-8) GitHub_Guide.pdf (OPTIONAL): A guide with instructions on basic GitHub actions and how to set up GitHub Desktop. This was created to ensure full alignment, and we also included it for convenience.
-9) hourly_environment.yml: The Conda environment file for the project, specifying required packages, versions and dependencies.
+5) AnalysisinPandas_andVisualizations.ipynb: This notebook contains all scripts required for the analysis and is fed with the cleaned datasets described above.
+6) PandasAnalysis.py: This file is a companion to AnalysisinPandas_andVisualizations.ipynb, the notebook cannot be executed without it.
+7) requirements.yml: This file is used to replicate our computing environment on any machine.
+8) README.md
 
 
  ===========================================================================
