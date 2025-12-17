@@ -1,24 +1,12 @@
 # Exploring Global Development Trends Using World Bank Indicators: A Data Analysis of Health and Environmental Metrics Across Regions from 2008 to 2019
 
-===========================================================================
- 
-**QUICK NOTE**
-
-Not all files are part of the main project. Some folders contain optional experimental material. The following additional experiments were conducted:
-1) Daily Data 1st Approach: "Daily_Mean_Analysis_EXTRA_EXPERIMENTAL_Approach_1"
-2) Daily Data 2nd Approach: "Daily_Mean_Analysis_EXTRA_EXPERIMENTAL_Approach_2"
-3) Weekly Data: "Weekly_Mean_Analysis_EXTRA_EXPERIMENTAL"
-
----> The main project script folder is: "MAIN_Project_Hourly_Mean_Analysis" <---
-
-
  ===========================================================================
 
-### 1. Introduction
+### 1. Project Description
 
-Electricity plays a crucial role in modern life. Energy providers, policymakers, and energy-intensive businesses rely on accurate predictions of energy usage(load) to ensure reliability and cost effectiveness and optimize production. Yet it is not simple to predict. Many factors can affect energy load, including weather, human behavior, and socioeconomic trends. Thus, forecasting models must account for both short- and long-term fluctuations to predict usage trends.  
+World Bank data are well suited for analyzing socioeconomic, health and environmental indicators, among others. Such analyses are commonly used to inform policy design, program planning and the monitoring of development outcomes by international organizations, including the United Nations and the World Bank. While these analyses may be conducted internally, they are also frequently carried out by external partners, such as Data and Technology companies, that support these organizations through data infrastructure development, data management and analytical services.
 
- This project explores the time-series analysis & analytics of hourly energy demand (MW) for Greece. Incorporating data from 9 additional neighboring countries is done to be exploited in a methodology widely used to refine the accuracy of the final forecast. This is Actual to Forecast (A/F Bias Limitation).
+We selected five health and three environmental indicators. Their metadata descriptions are provided both in main_cleaning_ingestion.ipynb and in the project report.
 
 
  ===========================================================================
@@ -26,11 +14,15 @@ Electricity plays a crucial role in modern life. Energy providers, policymakers,
 ### 2. Files Included
 
 The experimental folders have already been described, while the main project scripts have been defined. Here are the additional general files:
-1) README.md
-2) ITC6002B1_Duesing_Lappas_Logothetis_Psallida_Project.pdf: The project report
-3) ITC6002B1_Duesing_Lappas_Logothetis_Psallida_Project.ppt: The project Power Point presentation
-4) GitHub_Guide.pdf (OPTIONAL): A guide with instructions on basic GitHub actions and how to set up GitHub Desktop. This was created to ensure full alignment, and we also included it for convenience.
-5) hourly_environment.yml: The Conda environment file for the project, specifying required packages, versions and dependencies.
+1) original_data_and_region_mapping folder: It contains the raw data as well as region_list.csv, which was created to map countries to global regions.
+2) main_cleaning&ingestion.ipynb: It contains all scripts required for raw data ingestion and cleaning, as well as database creation and table population.
+3) custom_functions.py: This file is a companion to main_cleaning_ingestion.ipynb, the notebook cannot be executed without it.
+4) countries.csv, indicators.csv and values.csv: These are the exported database tables. They contain cleaned data, as the tables were populated only after the data cleaning process.
+5) README.md
+6) ITC6002B1_Duesing_Lappas_Logothetis_Psallida_Project.pdf: The project report
+7) ITC6002B1_Duesing_Lappas_Logothetis_Psallida_Project.ppt: The project Power Point presentation
+8) GitHub_Guide.pdf (OPTIONAL): A guide with instructions on basic GitHub actions and how to set up GitHub Desktop. This was created to ensure full alignment, and we also included it for convenience.
+9) hourly_environment.yml: The Conda environment file for the project, specifying required packages, versions and dependencies.
 
 
  ===========================================================================
