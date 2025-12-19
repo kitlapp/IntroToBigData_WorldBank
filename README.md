@@ -1,7 +1,5 @@
 # Exploring Global Development Trends Using World Bank Indicators: Data Cleaning, Database Creation, and Analysis of Health and Environmental Metrics Across Regions (2008–2019)
 
-NOTE: All files were removed from our personal branches to ensure that no database passwords were accidentally left behind.
-
  ===========================================================================
 
 ### 1. Project Description
@@ -33,7 +31,7 @@ These instructions are related to the zipped folder which contains the entire pr
 
 **Use the provided requirements.yml file:**  
 
-Download the zipped folderExtract all files creating your project directory. Open Anaconda Prompt and navigate to the extracted folder (project directory) or provide the full path to it. Then:
+Download the zipped folder and extract all files creating your project directory. Open Anaconda Prompt and navigate to the extracted folder (project directory) or provide the full path to it. Then:
 1) Run the following command to create the environment: “conda env create -f requirements.yml". Give permissions if prompted. The environment will be created with the name DereeIntroBigData.
 2) Once the environment is created, activate it: “conda activate DereeIntroBigData” 
 3) Launch Jupyter Lab by typing "jupyter-lab”. The project directory will open directly in Jupyter Lab’s interface.
