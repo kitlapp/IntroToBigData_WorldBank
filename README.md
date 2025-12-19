@@ -27,7 +27,7 @@ For this project, we assume the role of such a company, with the World Bank requ
 
 ### 3. How to Set Up the Environment
 
-These instructions are related to the zipped folder which contains the entire project inside. Alternatively, we included all files separately at GitHub repo: https://github.com/kitlapp/IntroToBigData_WorldBank. However, we strongly recommend to download the zipped folder and follow the instructions below.
+These instructions are related to the zipped folder which contains the entire project inside. Alternatively, we included all files separately at GitHub repo: https://github.com/kitlapp/IntroToBigData_WorldBank. Note that main_analysis.ipynb is very large to be uploaded outside of a zipped folder. Therefore, it exists only inside allProjects.zip. We strongly recommend to download the zipped folder and follow the instructions below.
 
 **Use the provided requirements.yml file:**  
 
