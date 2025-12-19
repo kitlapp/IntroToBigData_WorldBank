@@ -1,9 +1,0 @@
-indicator_id,indicator_name,unit
-CHE,Current health expenditure,% of GDP
-GEM,Total greenhouse gas emissions including LULUCF,Million Tonnes of CO2
-POP,Population total,Humans
-REN,Renewable energy consumption,% of Total Final Energy Consumption
-SR,People using safely managed sanitation services rural,% of Rural Population
-SU,People using safely managed sanitation services urban,% of Urban Population
-WR,People using at least basic drinking water services rural,% of Rural Population
-WU,People using at least basic drinking water services urban,% of Urban Population
