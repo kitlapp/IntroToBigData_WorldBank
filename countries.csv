@@ -1,0 +1,262 @@
+country_id,country_name,region
+AGO,Angola,Africa
+ALB,Albania,Europe and Central Asia
+AND,Andorra,Europe and Central Asia
+ARB,Arab World,REGION
+ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan"
+ARG,Argentina,Latin America and the Caribbean
+ARM,Armenia,Europe and Central Asia
+ASM,American Samoa,OCEANIA
+ATG,Antigua and Barbuda,Latin America and the Caribbean
+AUS,Australia,OCEANIA
+AUT,Austria,Europe and Central Asia
+AZE,Azerbaijan,Europe and Central Asia
+BDI,Burundi,Africa
+BEL,Belgium,Europe and Central Asia
+BEN,Benin,Africa
+BFA,Burkina Faso,Africa
+BGD,Bangladesh,South Asia
+BGR,Bulgaria,Europe and Central Asia
+BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan"
+BHS,Bahamas The,Latin America and the Caribbean
+BIH,Bosnia and Herzegovina,Europe and Central Asia
+BLR,Belarus,Europe and Central Asia
+BLZ,Belize,Latin America and the Caribbean
+BMU,Bermuda,Latin America and the Caribbean
+BOL,Bolivia,Latin America and the Caribbean
+BRA,Brazil,Latin America and the Caribbean
+BRB,Barbados,Latin America and the Caribbean
+BRN,Brunei Darussalam,East Asia and Pacific
+BTN,Bhutan,South Asia
+BWA,Botswana,Africa
+CAF,Central African Republic,Africa
+CAN,Canada,North America
+CEB,Central Europe and the Baltics,REGION
+CHE,Switzerland,Europe and Central Asia
+CHI,Channel Islands,Europe and Central Asia
+CHL,Chile,Latin America and the Caribbean
+CHN,China,East Asia and Pacific
+CIV,Cote d'Ivoire,Africa
+CMR,Cameroon,Africa
+COD,Congo Dem. Rep.,Africa
+COG,Congo Rep.,Africa
+COL,Colombia,Latin America and the Caribbean
+COM,Comoros,Africa
+CPV,Cabo Verde,Africa
+CRI,Costa Rica,Latin America and the Caribbean
+CSS,Caribbean small states,REGION
+CUB,Cuba,Latin America and the Caribbean
+CUW,Curacao,Latin America and the Caribbean
+CYM,Cayman Islands,Latin America and the Caribbean
+CYP,Cyprus,Europe and Central Asia
+CZE,Czechia,Europe and Central Asia
+DEU,Germany,Europe and Central Asia
+DJI,Djibouti,"Middle East, North Africa, Afghanistan & Pakistan"
+DMA,Dominica,Latin America and the Caribbean
+DNK,Denmark,Europe and Central Asia
+DOM,Dominican Republic,Latin America and the Caribbean
+DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan"
+EAP,East Asia & Pacific (excluding high income),SOCIOECONOMIC
+EAR,Early-demographic dividend,SOCIOECONOMIC
+EAS,East Asia & Pacific,REGION
+ECA,Europe & Central Asia (excluding high income),SOCIOECONOMIC
+ECS,Europe & Central Asia,REGION
+ECU,Ecuador,Latin America and the Caribbean
+EGY,Egypt Arab Rep.,"Middle East, North Africa, Afghanistan & Pakistan"
+EMU,Euro area,SOCIOECONOMIC
+ERI,Eritrea,Africa
+ESP,Spain,Europe and Central Asia
+EST,Estonia,Europe and Central Asia
+ETH,Ethiopia,Africa
+EUU,European Union,SOCIOECONOMIC
+FCS,Fragile and conflict affected situations,SOCIOECONOMIC
+FIN,Finland,Europe and Central Asia
+FJI,Fiji,OCEANIA
+FRA,France,Europe and Central Asia
+FRO,Faroe Islands,Europe and Central Asia
+FSM,Micronesia Fed. Sts.,OCEANIA
+GAB,Gabon,Africa
+GBR,United Kingdom,Europe and Central Asia
+GEO,Georgia,Europe and Central Asia
+GHA,Ghana,Africa
+GIB,Gibraltar,Europe and Central Asia
+GIN,Guinea,Africa
+GMB,Gambia The,Africa
+GNB,Guinea-Bissau,Africa
+GNQ,Equatorial Guinea,Africa
+GRC,Greece,Europe and Central Asia
+GRD,Grenada,Latin America and the Caribbean
+GRL,Greenland,Europe and Central Asia
+GTM,Guatemala,Latin America and the Caribbean
+GUM,Guam,East Asia and Pacific
+GUY,Guyana,Latin America and the Caribbean
+HIC,High income,SOCIOECONOMIC
+HKG,Hong Kong SAR China,East Asia and Pacific
+HND,Honduras,Latin America and the Caribbean
+HPC,Heavily indebted poor countries (HIPC),SOCIOECONOMIC
+HRV,Croatia,Europe and Central Asia
+HTI,Haiti,Latin America and the Caribbean
+HUN,Hungary,Europe and Central Asia
+IBD,IBRD only,SOCIOECONOMIC
+IBT,IDA & IBRD total,SOCIOECONOMIC
+IDA,IDA total,SOCIOECONOMIC
+IDB,IDA blend,SOCIOECONOMIC
+IDN,Indonesia,East Asia and Pacific
+IDX,IDA only,SOCIOECONOMIC
+IMN,Isle of Man,Europe and Central Asia
+IND,India,South Asia
+IRL,Ireland,Europe and Central Asia
+IRN,Iran Islamic Rep.,"Middle East, North Africa, Afghanistan & Pakistan"
+IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan"
+ISL,Iceland,Europe and Central Asia
+ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan"
+ITA,Italy,Europe and Central Asia
+JAM,Jamaica,Latin America and the Caribbean
+JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan"
+JPN,Japan,East Asia and Pacific
+KAZ,Kazakhstan,Europe and Central Asia
+KEN,Kenya,Africa
+KGZ,Kyrgyz Republic,Europe and Central Asia
+KHM,Cambodia,East Asia and Pacific
+KIR,Kiribati,OCEANIA
+KNA,St. Kitts and Nevis,Latin America and the Caribbean
+KOR,Korea Rep.,East Asia and Pacific
+KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan"
+LAC,Latin America & Caribbean (excluding high income),SOCIOECONOMIC
+LAO,Lao PDR,East Asia and Pacific
+LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan"
+LBR,Liberia,Africa
+LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan"
+LCA,St. Lucia,Latin America and the Caribbean
+LCN,Latin America & Caribbean,REGION
+LDC,Least developed countries: UN classification,SOCIOECONOMIC
+LIC,Low income,SOCIOECONOMIC
+LIE,Liechtenstein,Europe and Central Asia
+LKA,Sri Lanka,South Asia
+LMC,Lower middle income,SOCIOECONOMIC
+LMY,Low & middle income,SOCIOECONOMIC
+LSO,Lesotho,Africa
+LTE,Late-demographic dividend,SOCIOECONOMIC
+LTU,Lithuania,Europe and Central Asia
+LUX,Luxembourg,Europe and Central Asia
+LVA,Latvia,Europe and Central Asia
+MAC,Macao SAR China,East Asia and Pacific
+MAF,St. Martin (French part),Latin America and the Caribbean
+MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan"
+MCO,Monaco,Europe and Central Asia
+MDA,Moldova,Europe and Central Asia
+MDG,Madagascar,Africa
+MDV,Maldives,South Asia
+MEA,Middle East North Africa Afghanistan & Pakistan,REGION
+MEX,Mexico,Latin America and the Caribbean
+MHL,Marshall Islands,OCEANIA
+MIC,Middle income,SOCIOECONOMIC
+MKD,North Macedonia,Europe and Central Asia
+MLI,Mali,Africa
+MLT,Malta,Europe and Central Asia
+MMR,Myanmar,East Asia and Pacific
+MNA,Middle East North Africa Afghanistan & Pakistan (excluding high income),SOCIOECONOMIC
+MNE,Montenegro,Europe and Central Asia
+MNG,Mongolia,East Asia and Pacific
+MNP,Northern Mariana Islands,East Asia and Pacific
+MOZ,Mozambique,Africa
+MRT,Mauritania,Africa
+MUS,Mauritius,Africa
+MWI,Malawi,Africa
+MYS,Malaysia,East Asia and Pacific
+NAC,North America,REGION
+NAM,Namibia,Africa
+NCL,New Caledonia,OCEANIA
+NER,Niger,Africa
+NGA,Nigeria,Africa
+NIC,Nicaragua,Latin America and the Caribbean
+NLD,Netherlands,Europe and Central Asia
+NOR,Norway,Europe and Central Asia
+NPL,Nepal,South Asia
+NRU,Nauru,OCEANIA
+NZL,New Zealand,OCEANIA
+OED,OECD members,SOCIOECONOMIC
+OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan"
+OSS,Other small states,REGION
+PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan"
+PAN,Panama,Latin America and the Caribbean
+PER,Peru,Latin America and the Caribbean
+PHL,Philippines,East Asia and Pacific
+PLW,Palau,OCEANIA
+PNG,Papua New Guinea,East Asia and Pacific
+POL,Poland,Europe and Central Asia
+PRE,Pre-demographic dividend,SOCIOECONOMIC
+PRI,Puerto Rico (US),North America
+PRK,Korea Dem. People's Rep.,East Asia and Pacific
+PRT,Portugal,Europe and Central Asia
+PRY,Paraguay,Latin America and the Caribbean
+PSE,West Bank and Gaza,"Middle East, North Africa, Afghanistan & Pakistan"
+PSS,Pacific island small states,REGION
+PST,Post-demographic dividend,SOCIOECONOMIC
+PYF,French Polynesia,OCEANIA
+QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan"
+ROU,Romania,Europe and Central Asia
+RUS,Russian Federation,Europe and Central Asia
+RWA,Rwanda,Africa
+SAS,South Asia,REGION
+SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan"
+SDN,Sudan,Africa
+SEN,Senegal,Africa
+SGP,Singapore,East Asia and Pacific
+SLB,Solomon Islands,OCEANIA
+SLE,Sierra Leone,Africa
+SLV,El Salvador,Latin America and the Caribbean
+SMR,San Marino,Europe and Central Asia
+SOM,Somalia Fed. Rep.,Africa
+SRB,Serbia,Europe and Central Asia
+SSA,Sub-Saharan Africa (excluding high income),SOCIOECONOMIC
+SSD,South Sudan,Africa
+SSF,Sub-Saharan Africa,REGION
+SST,Small states,REGION
+STP,Sao Tome and Principe,Africa
+SUR,Suriname,Latin America and the Caribbean
+SVK,Slovak Republic,Europe and Central Asia
+SVN,Slovenia,Europe and Central Asia
+SWE,Sweden,Europe and Central Asia
+SWZ,Eswatini,Africa
+SXM,Sint Maarten (Dutch part),Latin America and the Caribbean
+SYC,Seychelles,Africa
+SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan"
+TCA,Turks and Caicos Islands,Latin America and the Caribbean
+TCD,Chad,Africa
+TEA,East Asia & Pacific (IDA & IBRD countries),SOCIOECONOMIC
+TEC,Europe & Central Asia (IDA & IBRD countries),SOCIOECONOMIC
+TGO,Togo,Africa
+THA,Thailand,East Asia and Pacific
+TJK,Tajikistan,Europe and Central Asia
+TKM,Turkmenistan,Europe and Central Asia
+TLA,Latin America & the Caribbean (IDA & IBRD countries),SOCIOECONOMIC
+TLS,Timor-Leste,East Asia and Pacific
+TMN,Middle East North Africa Afghanistan & Pakistan (IDA & IBRD),SOCIOECONOMIC
+TON,Tonga,OCEANIA
+TSA,South Asia (IDA & IBRD),SOCIOECONOMIC
+TSS,Sub-Saharan Africa (IDA & IBRD countries),SOCIOECONOMIC
+TTO,Trinidad and Tobago,Latin America and the Caribbean
+TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan"
+TUR,Turkiye,Europe and Central Asia
+TUV,Tuvalu,OCEANIA
+TZA,Tanzania,Africa
+UGA,Uganda,Africa
+UKR,Ukraine,Europe and Central Asia
+UMC,Upper middle income,SOCIOECONOMIC
+URY,Uruguay,Latin America and the Caribbean
+USA,United States,North America
+UZB,Uzbekistan,Europe and Central Asia
+VCT,St. Vincent and the Grenadines,Latin America and the Caribbean
+VEN,Venezuela RB,Latin America and the Caribbean
+VGB,British Virgin Islands,Latin America and the Caribbean
+VIR,Virgin Islands (U.S.),Latin America and the Caribbean
+VNM,Viet Nam,East Asia and Pacific
+VUT,Vanuatu,OCEANIA
+WLD,World,REGION
+WSM,Samoa,OCEANIA
+XKX,Kosovo,Europe and Central Asia
+YEM,Yemen Rep.,"Middle East, North Africa, Afghanistan & Pakistan"
+ZAF,South Africa,Africa
+ZMB,Zambia,Africa
+ZWE,Zimbabwe,Africa
