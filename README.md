@@ -1,6 +1,7 @@
 # Exploring Global Development Trends Using World Bank Indicators: Data Cleaning, Database Creation, and Analysis of Health and Environmental Metrics Across Regions (2008–2019)
 
-***** NOTE: All files were removed from our personal branches to ensure that no database passwords were accidentally left behind. *****
+NOTE: All files were removed from our personal branches to ensure that no database passwords were accidentally left behind.
+
  ===========================================================================
 
 ### 1. Project Description
